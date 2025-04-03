@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF6036842D9E68260079DB35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60367E2D9E68260079DB35 /* Preview Assets.xcassets */; };
+		EF6036852D9E68260079DB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6036802D9E68260079DB35 /* Assets.xcassets */; };
+		EF6036862D9E68260079DB35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6036812D9E68260079DB35 /* ContentView.swift */; };
+		EF6036872D9E68260079DB35 /* iTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6036822D9E68260079DB35 /* iTourApp.swift */; };
+		EF6036892D9E68700079DB35 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6036882D9E68700079DB35 /* Destination.swift */; };
+		EF60368D2D9E6EDD0079DB35 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60368C2D9E6EDD0079DB35 /* EditDestinationView.swift */; };
+		EF60369E2D9E965F0079DB35 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60369D2D9E965F0079DB35 /* DestinationListingView.swift */; };
+		EF6036AF2D9EA2E80079DB35 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6036AE2D9EA2E80079DB35 /* Sight.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF60366D2D9E681B0079DB35 /* iTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF60367E2D9E68260079DB35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF6036802D9E68260079DB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6036812D9E68260079DB35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF6036822D9E68260079DB35 /* iTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourApp.swift; sourceTree = "<group>"; };
+		EF6036882D9E68700079DB35 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		EF60368C2D9E6EDD0079DB35 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		EF60369D2D9E965F0079DB35 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		EF6036AE2D9EA2E80079DB35 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF60366F2D9E681B0079DB35 /* iTour */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iTour;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF60366A2D9E681B0079DB35 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		EF6036642D9E681B0079DB35 = {
 			isa = PBXGroup;
 			children = (
-				EF60366F2D9E681B0079DB35 /* iTour */,
+				EF6036832D9E68260079DB35 /* iTour */,
 				EF60366E2D9E681B0079DB35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,45 @@
 				EF60366D2D9E681B0079DB35 /* iTour.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF60367F2D9E68260079DB35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF60367E2D9E68260079DB35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF6036832D9E68260079DB35 /* iTour */ = {
+			isa = PBXGroup;
+			children = (
+				EF60368B2D9E6ECA0079DB35 /* View */,
+				EF60368A2D9E68770079DB35 /* Model */,
+				EF6036812D9E68260079DB35 /* ContentView.swift */,
+				EF6036822D9E68260079DB35 /* iTourApp.swift */,
+				EF6036802D9E68260079DB35 /* Assets.xcassets */,
+				EF60367F2D9E68260079DB35 /* Preview Content */,
+			);
+			path = iTour;
+			sourceTree = "<group>";
+		};
+		EF60368A2D9E68770079DB35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6036882D9E68700079DB35 /* Destination.swift */,
+				EF6036AE2D9EA2E80079DB35 /* Sight.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF60368B2D9E6ECA0079DB35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF60368C2D9E6EDD0079DB35 /* EditDestinationView.swift */,
+				EF60369D2D9E965F0079DB35 /* DestinationListingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF60366F2D9E681B0079DB35 /* iTour */,
 			);
 			name = iTour;
 			packageProductDependencies = (
@@ -109,6 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6036842D9E68260079DB35 /* Preview Assets.xcassets in Resources */,
+				EF6036852D9E68260079DB35 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6036862D9E68260079DB35 /* ContentView.swift in Sources */,
+				EF6036872D9E68260079DB35 /* iTourApp.swift in Sources */,
+				EF6036892D9E68700079DB35 /* Destination.swift in Sources */,
+				EF6036AF2D9EA2E80079DB35 /* Sight.swift in Sources */,
+				EF60368D2D9E6EDD0079DB35 /* EditDestinationView.swift in Sources */,
+				EF60369E2D9E965F0079DB35 /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
